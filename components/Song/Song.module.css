@@ -1,0 +1,17 @@
+.turning {
+  animation: turning infinite linear 10s;
+  border-radius: 50%;
+}
+
+.notTurning {
+  border-radius: 50%;
+}
+
+@keyframes turning {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

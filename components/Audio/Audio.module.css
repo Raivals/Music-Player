@@ -1,0 +1,20 @@
+.controls {
+  appearance: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+  margin: 1rem auto;
+}
+
+.controlsAudioPlayer {
+  display: none;
+}
+
+.rangeInfos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
+  margin: 1rem auto;
+}
